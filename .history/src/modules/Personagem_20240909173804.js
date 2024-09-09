@@ -5,11 +5,11 @@ export class Personagem {
     level
     descricao
 
-    constructor(nome, level, vida, mana, tipo, descricao) {
+    constructor(nome, vida, mana, level, tipo, descricao) {
         this.nome = nome;
-        this.level = level;
         this.vida = 100;
         this.mana = 100;
+        this.level = level;
         this.descricao = descricao;
     }
 
