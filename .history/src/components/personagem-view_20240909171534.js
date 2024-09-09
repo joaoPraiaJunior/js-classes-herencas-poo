@@ -45,15 +45,15 @@ export class PersonagemView {
                 <h3 class="nome">${personagem.nome}</h3>
             </div>
             <div class="container-descricao">
-                <p class="descricao">${personagem.descricao}</p>
+                <p class="descricao"></p>
             </div>
         </div>
         <div class="container-inferior">
             <img src="./src/assets/img/icone-mana.png" class="icone-mana">
-            <p class="insignia">${personagem.obterInsignia()}</p>
+            <p class="insignia"></p>
             <img src="./src/assets/img/icone-vida.png" class="icone-vida">
-            <h4 class="mana">${personagem.mana}</h4>
-            <h4 class="vida">${personagem.vida}</h4>
+            <h4 class="mana"></h4>
+            <h4 class="vida"></h4>
         </div>
         `
     
