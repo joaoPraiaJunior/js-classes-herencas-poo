@@ -3,6 +3,6 @@ class Personagem {
     vida
     mana
     level
-    tipo
+    static tipo
     descricao
 }

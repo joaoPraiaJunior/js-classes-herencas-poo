@@ -5,7 +5,7 @@ import { Personagem } from './Personagem.js';
 //     vida: 7,
 //     mana: 12,
 //     level: 5,
-//     tipo: 'Mago',
+//     static tipo: 'Mago',
 // }
 
 // const personagemJose = {
@@ -13,7 +13,7 @@ import { Personagem } from './Personagem.js';
 //     vida: 7,
 //     mana: 6,
 //     level: 3,
-//     tipo: 'Arqueiro',
+//     static tipo: 'Arqueiro',
 // }
 
 

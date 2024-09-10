@@ -3,7 +3,7 @@ const personagemPedrinho = {
     vida: 7,
     mana: 12,
     level: 5,
-    tipo: 'Mago',
+    static tipo: 'Mago',
 }
 
 const personagemJose = {
@@ -11,6 +11,6 @@ const personagemJose = {
     vida: 7,
     mana: 6,
     level: 3,
-    tipo: 'Arqueiro',
+    static tipo: 'Arqueiro',
 }
 
