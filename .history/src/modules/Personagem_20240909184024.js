@@ -5,7 +5,7 @@ export class Personagem {
     level
     descricao
 
-    constructor(nome, vida, mana, level, tipo, descricao) {
+    constructor(nome, vida, mana, level, static tipo, descricao) {
         this.nome = nome;
         this.level = level;
         this.vida = 100;
@@ -15,9 +15,9 @@ export class Personagem {
 
     obterInsignia() {
         if(this.level >= 5) {
-            return `Implacável ${this.tipo} `
+            return `Implacável ${this.static tipo} `
         }
 
-        return `Iniciante ${this.tipo}`
+        return `Iniciante ${this.static tipo}`
     }
 }

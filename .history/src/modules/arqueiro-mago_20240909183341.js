@@ -4,7 +4,7 @@ import { Personagem } from "./Personagem.js";
 
 
 export  class ArqueiroMago extends Personagem {
-    tipo = 'ArqueiroMago'
+    static tipo = 'ArqueiroMago'
     ladoMago
     ladoArqueiro
 

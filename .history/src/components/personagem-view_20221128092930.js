@@ -28,8 +28,8 @@ criaPersonagem = (personagem) => {
         </div>
         <div class="container-imagem">
             <div class="imagem"></div>
-            <div class="container-tipo">
-                <h2 class="tipo"></h2>
+            <div class="container-static tipo">
+                <h2 class="static tipo"></h2>
             </div>
         </div>
         <div class="container-nome">

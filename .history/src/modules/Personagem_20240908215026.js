@@ -3,14 +3,14 @@ export class Personagem {
     vida
     mana
     level
-    tipo
+    static tipo
     descricao
 
     obterInsignia() {
         if(this.level >= 5) {
-            return `Implacável ${this.tipo} `
+            return `Implacável ${this.static tipo} `
         }
 
-        return `Iniciante ${this.tipo}`
+        return `Iniciante ${this.static tipo}`
     }
 }
